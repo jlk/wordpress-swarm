@@ -21,7 +21,7 @@ container. To see an example of scaling up MariaDB to 3 nodes
 (generally for databases you want an odd number of nodes), try:
 
 ```
-docker service scale dbcluster=3
+docker service scale wordpress_dbcluster=3
 ```
 
 When finished, the following command shuts everything down:
